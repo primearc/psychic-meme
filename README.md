@@ -3,6 +3,7 @@
 git config [--system | --global] [user.name | user.email | core.mail | merge.tool]
 
 #################
+# Yerel depo ekleme
 
 git init 
 
@@ -12,3 +13,14 @@ git init
 git add -A
 git commit -m "İlk commit"
 
+##################
+# Uzak depo ekleme
+git init 
+git add README.md
+git commit -m "first"
+git branch -M main 
+git remote add [origin] https://github.com/username/project.git
+
+# ya da
+git clone https://kullanıcıadı:şifre@github.com/username/repository.git
+#################
