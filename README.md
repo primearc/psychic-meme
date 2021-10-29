@@ -4,5 +4,11 @@ git config [--system | --global] [user.name | user.email | core.mail | merge.too
 
 #################
 
+git init 
 
+.gitignore dosyası eklenir.
+İstenilen dosya türleri git tarafından gözardı ettirilir.
+
+git add -A
+git commit -m "İlk commit"
 
