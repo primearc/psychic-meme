@@ -24,3 +24,7 @@ git remote add [origin] https://github.com/username/project.git
 # ya da
 git clone https://kullanıcıadı:şifre@github.com/username/repository.git
 #################
+
+# branch
+
+git branch -v
