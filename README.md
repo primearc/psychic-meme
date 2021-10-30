@@ -25,6 +25,8 @@ git remote add [origin] https://github.com/username/project.git
 git clone https://kullanıcıadı:şifre@github.com/username/repository.git
 #################
 
-# branch
+# Geçici kaydetme işlemi
 
-git branch -v
+git stash pop (siler)
+git stash apply (yazar)
+git stash drop [stash@1]
