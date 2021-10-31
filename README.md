@@ -45,7 +45,12 @@ Birleştirilmek istenen dala gidildiği zaman > git merge [created_branch]
 git remote add [origin] "github_adresi" ()
 git fetch [origin](uzak sunucudaki değişiklikleri indirir)
 git pull [origin] = git fetch + git merge 
-git push = uzak sunucuya yollar
+git push  = uzak sunucuya yollar
+
+# Dalları silmek
+
+git branch -d [branch] ##Local
+git branch -dr [branch] ##Remote
 
 
 
