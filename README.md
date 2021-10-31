@@ -71,7 +71,7 @@ git diff -> commit edilmemiş farklar
 
 # rebase
 
-git rebase branch-b
+git rebase branch-b -> branch ile ilgili kayıt bilgileri tutulmaz
 
 
 
