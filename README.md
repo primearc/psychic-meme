@@ -37,3 +37,5 @@ git stash drop [stash@1]
 git branch [new_branch]
 git checkout [created_branch]
 Birleştirilmek istenen dala gidildiği zaman > git merge [created_branch]
+
+# Doğrudan GitHub üstünden değiştirme
