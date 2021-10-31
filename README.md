@@ -69,7 +69,9 @@ git diff [branch1] [branch2] -> dal farkları
 git log -p -> commit farkları
 git diff -> commit edilmemiş farklar
 
+# rebase
 
+git rebase branch-b
 
 
 
