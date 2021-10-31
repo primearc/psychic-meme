@@ -52,5 +52,18 @@ git push  = uzak sunucuya yollar
 git branch -d [branch] ##Local
 git branch -dr [branch] ##Remote
 
+# Yerel değişiklikleri geri alma (commit yapılmadan)
+
+git checkout -- README.md
+git reset --hard HEAD 
+
+# Yerel değişiklikleri geri alma (commit sonrası)
+
+git revert [hash] (yeni commit üretir)
+git reset [hash] (yeni commit üretmez)
+
+
+
+
 
 
