@@ -30,3 +30,10 @@ git clone https://kullanıcıadı:şifre@github.com/username/repository.git
 git stash pop (siler)
 git stash apply (yazar)
 git stash drop [stash@1]
+####################
+
+# Dallanma ve Birleştirme (Branching and Merging)
+
+git branch [new_branch]
+git checkout [created_branch]
+Birleştirilmek istenen dala gidildiği zaman > git merge [created_branch]
