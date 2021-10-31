@@ -2,7 +2,7 @@
 
 git config [--system | --global] [user.name | user.email | core.mail | merge.tool]
 
-#################
+
 # Yerel depo ekleme
 
 git init 
@@ -13,7 +13,7 @@ git init
 git add -A
 git commit -m "İlk commit"
 
-##################
+
 # Uzak depo ekleme
 git init 
 git add README.md
@@ -23,14 +23,14 @@ git remote add [origin] https://github.com/username/project.git
 
 # ya da
 git clone https://kullanıcıadı:şifre@github.com/username/repository.git
-#################
+
 
 # Geçici kaydetme işlemi
 
 git stash pop (siler)
 git stash apply (yazar)
 git stash drop [stash@1]
-####################
+
 
 # Dallanma ve Birleştirme (Branching and Merging)
 
@@ -39,3 +39,5 @@ git checkout [created_branch]
 Birleştirilmek istenen dala gidildiği zaman > git merge [created_branch]
 
 # Doğrudan GitHub üstünden değiştirme
+
+
