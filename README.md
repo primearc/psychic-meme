@@ -62,6 +62,14 @@ git reset --hard HEAD
 git revert [hash] (yeni commit üretir)
 git reset [hash] (yeni commit üretmez)
 
+# Farkları incelemek
+
+git diff [hash1]..[hash2] README.md -> versiyon farkları
+git diff [branch1] [branch2] -> dal farkları
+git log -p -> commit farkları
+git diff -> commit edilmemiş farklar
+
+
 
 
 
